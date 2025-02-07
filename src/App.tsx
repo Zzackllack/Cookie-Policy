@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Container from './components/Container';
 import PolicyContent from './components/PolicyContent';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <PolicyContent />
         </Container>
       </main>
+      <Footer />
     </div>
   );
 }
