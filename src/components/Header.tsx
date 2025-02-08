@@ -1,4 +1,3 @@
-import React from 'react';
 
 const CookieIcon = () => (
   <img src="https://www.svgrepo.com/show/401340/cookie.svg" alt="Cookie Icon" className="w-16 h-16" />
