@@ -1,6 +1,6 @@
 {
-  "name": "Cookie Policy",
-  "short_name": "Cookie Policy",
+  "name": "Datenschutzerklärung",
+  "short_name": "Datenschutz",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
@@ -15,7 +15,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#6d4934",
-  "background_color": "#6d4934",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
   "display": "standalone"
 }

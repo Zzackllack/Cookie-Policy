@@ -1,16 +1,13 @@
-import Header from './components/Header';
-import Container from './components/Container';
-import PolicyContent from './components/PolicyContent';
-import Footer from './components/Footer';
+import Hero from "./components/Hero";
+import Policy from "./components/Policy";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
-      <Header />
-      <main className="py-8 md:py-12">
-        <Container>
-          <PolicyContent />
-        </Container>
+    <div className="min-h-screen flex flex-col bg-black text-white">
+      <main className="flex-grow">
+        <Hero />
+        <Policy />
       </main>
       <Footer />
     </div>
